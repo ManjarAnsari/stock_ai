@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Custom additions
+stockai/              # your virtual environment folder
+models/*.pkl          # large model files (optional)
+.streamlit/secrets.toml  # Streamlit secrets file
+
 # C extensions
 *.so
 
